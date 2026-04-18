@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Modern Spa - Bhopal</title>
+
+<!-- Google Font -->
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<!-- Navbar -->
+<nav>
+    <h2>Modern Spa</h2>
+    <ul>
+        <li><a href="#home">Home</a></li>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#packages">Packages</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#contact">Book</a></li>
+    </ul>
+</nav>
+
+<!-- Hero -->
+<section class="hero" id="home">
+    <div>
+        <h1>Relax. Refresh. Rejuvenate.</h1>
+        <p>Premium Spa & Wellness Center in Bhopal</p>
+        <a href="#contact" class="btn">Book Appointment</a>
+    </div>
+</section>
+
+<!-- About -->
+<section class="about" id="about">
+    <h2>About Our Spa</h2>
+    <p>
+        Welcome to Serenity Spa, a luxury spa service based in Bhopal offering
+        a peaceful and relaxing environment. Our certified therapists provide
+        world-class spa therapies including massage, skincare, and wellness
+        treatments designed to relax your mind, body, and soul.
+    </p>
+</section>
+
+<!-- Services -->
+<section id="services">
+    <h2>Our Services</h2>
+    <div class="services-container">
+        <div class="service-card">
+            <h3>Full Body Massage</h3>
+            <p>Relaxing aromatherapy and deep tissue massage for complete stress relief.</p>
+        </div>
+        <div class="service-card">
+            <h3>Facial & Skin Care</h3>
+            <p>Glow-enhancing facials using natural and premium skincare products.</p>
+        </div>
+        <div class="service-card">
+            <h3>Body Spa Therapy</h3>
+            <p>Detoxifying body spa treatments for ultimate rejuvenation.</p>
+        </div>
+        <div class="service-card">
+            <h3>Head & Shoulder Massage</h3>
+            <p>Relieve tension and improve relaxation with expert therapy.</p>
+        </div>
+    </div>
+</section>
+
+<!-- Packages -->
+<section id="packages">
+    <h2>Spa Packages</h2>
+    <div class="packages-container">
+        <div class="package">
+            <h3>Basic Relax Package</h3>
+            <p>60 Min Massage + Head Therapy</p>
+            <h4>₹1499</h4>
+        </div>
+        <div class="package">
+            <h3>Premium Wellness</h3>
+            <p>Full Body Spa + Facial</p>
+            <h4>₹2499</h4>
+        </div>
+        <div class="package">
+            <h3>Luxury Rejuvenation</h3>
+            <p>Full Day Spa + Body Therapy + Facial</p>
+            <h4>₹3999</h4>
+        </div>
+    </div>
+</section>
+
+<!-- Gallery -->
+<section id="gallery">
+    <h2>Our Spa Gallery</h2>
+    <div class="gallery">
+        <img src="https://images.unsplash.com/photo-1552693673-1bf958298935">
+        <img src="https://images.unsplash.com/photo-1596178065887-1198b6148b2b">
+        <img src="https://images.unsplash.com/photo-1519823551278-64ac92734fb1">
+        <img src="https://images.unsplash.com/photo-1507652313519-d4e9174996dd">
+    </div>
+</section>
+
+<!-- Testimonials -->
+<section>
+    <h2>What Our Clients Say</h2>
+    <div class="services-container">
+        <div class="testimonial">
+            <p>"Best spa experience in Bhopal! Very relaxing atmosphere."</p>
+            <strong>- Priya S.</strong>
+        </div>
+        <div class="testimonial">
+            <p>"Professional staff and amazing massage services."</p>
+            <strong>- Rahul K.</strong>
+        </div>
+        <div class="testimonial">
+            <p>"Highly recommended for stress relief and wellness."</p>
+            <strong>- Anjali M.</strong>
+        </div>
+    </div>
+</section>
+
+<!-- Contact / Booking -->
+<section class="contact" id="contact">
+    <h2>Book Your Appointment</h2>
+    <form onsubmit="submitForm(event)">
+        <input type="text" placeholder="Your Name" required>
+        <input type="tel" placeholder="Phone Number" required>
+        <input type="email" placeholder="Email Address" required>
+        <textarea rows="4" placeholder="Preferred Service & Time"></textarea>
+        <button class="btn" type="submit">Submit Booking</button>
+    </form>
+</section>
+
+<footer>
+    <p>© 2026 Modern Spa | Bhopal | Call: +91 99999 99999</p>
+</footer>
+
+<script>
+function submitForm(e){
+    e.preventDefault();
+    alert("Thank you! Your booking request has been submitted. Team will contact you soon.");
+}
+</script>
+
+</body>
+</html>
